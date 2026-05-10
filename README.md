@@ -41,7 +41,8 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 ## Dashboard Screenshots
 
 ### Rebate Overview
-<img width="1365" height="686" alt="Rebate Overview" src="https://github.com/user-attachments/assets/c752a9b0-3014-42e0-8de0-4e0869512b5a" />
+<img width="1358" height="690" alt="Rebate Overview" src="https://github.com/user-attachments/assets/12aeee92-ebfd-4c97-b05c-97cd8f40cf9b" />
+
 
 
 
