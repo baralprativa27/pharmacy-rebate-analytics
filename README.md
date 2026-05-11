@@ -63,7 +63,7 @@ Displays rebate trends and KPI changes after selecting a specific drug.
 
 ### 5. Claim Details – Drug Name Analysis
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
-<img width="931" height="538" alt="5  Claim Details – Drug Name Analysis" src="https://github.com/user-attachments/assets/83feb631-48c7-4e36-8730-cf45f2aaacbc" />
+<img src="screenshots/5. Claim Details – Drug Name Analysis.png" />
 
 
 ## SQL Skills Demonstrated
