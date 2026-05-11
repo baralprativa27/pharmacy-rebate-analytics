@@ -1,3 +1,7 @@
+![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
+![SQL](https://img.shields.io/badge/Database-OracleSQL-red)
+![Healthcare Analytics](https://img.shields.io/badge/Domain-Healthcare-blue)
+
 # Pharmacy Rebate Analytics Dashboard
 
 ## Project Overview
