@@ -58,7 +58,7 @@ Shows claim-level transaction details and rebate performance for the selected th
 
 ### 4. Rebate Overview – Filtered by Drug Name
 Displays rebate trends and KPI changes after selecting a specific drug.
-<img width="930" height="536" alt="4  Rebate Overview – Filtered by Drug Name" src="https://github.com/user-attachments/assets/6997bbb7-7f4c-442d-b467-36027019323f" />
+<img src="screenshots/4. Rebate Overview – Filtered by Drug Name.png" />
 
 
 ### 5. Claim Details – Drug Name Analysis
