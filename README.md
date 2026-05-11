@@ -3,6 +3,9 @@
 ## Project Overview
 Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims, and therapeutic class trends. The dashboard enables stakeholders to monitor financial performance and drill into detailed claim-level analytics.
 
+## Business Problem
+Pharmacy benefit organizations must closely monitor rebate performance, drug costs, and claims activity to reduce financial leakage and optimize reimbursement strategies. Manual analysis of rebate data can make it difficult to identify underperforming therapeutic classes, high-cost drugs, and rebate discrepancies across plans and claims.
+
 ## Objectives
 - Track pharmacy rebate performance
 - Analyze total cost vs net cost
@@ -23,19 +26,21 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 | Plans Information         | Stores payer and insurance plan details used for plan-level rebate and cost analysis                                        |
 
 ## Tools & Technologies
-- Oracle SQL
 - Power BI
-- Excel / CSV
-- Data Modeling
 - DAX Measures
+- Power Query
+- Oracle SQL
+- Excel / CSV Data Sources
+- Data Modeling
+- Data Visualization
 
 ## Data Workflow
-- Imported multiple CSV datasets into Power BI
-- Performed data cleaning and transformation in Power BI
-- Built relationships between claims, drugs, plans, and rebate tables
-- Created DAX measures for rebate KPIs and variance analysis
-- Developed interactive dashboards with drill-through reporting
-- Applied SQL concepts separately for analytical query practice
+- Imported pharmacy claims, drug, plan, and rebate datasets from CSV files into Power BI
+- Performed data cleaning and transformation using Power Query
+- Designed a relational data model connecting claims, drugs, plans, and rebate tables
+- Created DAX measures for rebate KPIs, variance analysis, and financial reporting
+- Developed interactive dashboards with drill-through and dynamic filtering capabilities
+- Applied Oracle SQL concepts separately for analytical query practice and KPI calculations
 
 ## Key Features
 - Interactive slicers and filters
@@ -43,6 +48,13 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Trend analysis
 - Drill-through claim details
 - Rebate variance monitoring
+
+## Technical Highlights
+- Built reusable DAX measures for KPI calculations and variance tracking
+- Implemented drill-through pages for claim-level investigation
+- Applied conditional formatting to highlight rebate performance trends
+- Designed interactive slicers for therapeutic class, drug, and plan-level filtering
+- Developed relational data modeling to support scalable analytics
 
 ## KPIs
 - Total Claims
@@ -53,10 +65,10 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Rebate Variance %
 
 ## Business Insights
-- Identified Immunology as the highest rebate-contributing therapeutic class.
-- Revealed rebate variance fluctuations indicating periods of underperformance.
-- Enabled identification of high-cost, high-rebate drugs impacting profitability.
-- Supported granular claim-level analysis for financial decision-making.
+- Identified Immunology as the highest rebate-contributing therapeutic class across total claims and rebate recovery
+- Detected rebate variance fluctuations where actual rebates fell below expected rebate thresholds, indicating potential rebate leakage
+- Highlighted high-cost, high-rebate drugs impacting profitability
+- Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
 ## Dashboard Screenshots
 
