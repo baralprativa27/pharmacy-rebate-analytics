@@ -11,7 +11,7 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 - Enable claim-level drill-through analysis
 - Detect rebate leakage by comparing actual vs expected rebate amounts across drugs and therapeutic classes
 
-  ## Tools & Technologies
+## Tools & Technologies
 - Oracle SQL
 - Power BI
 - Excel / CSV
@@ -25,7 +25,7 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 - Drill-through claim details
 - Rebate variance monitoring
 
-  ## KPIs
+## KPIs
 - Total Claims
 - Total Cost
 - Total Rebate
