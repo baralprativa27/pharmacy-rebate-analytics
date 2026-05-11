@@ -58,12 +58,12 @@ Shows claim-level transaction details and rebate performance for the selected th
 
 ### 4. Rebate Overview – Filtered by Drug Name
 Displays rebate trends and KPI changes after selecting a specific drug.
-<img width="1364" height="680" alt="Screenshot 2026-05-09 224117" src="https://github.com/user-attachments/assets/fafa48cd-2015-4095-87e8-74ddad886340" />
+<img width="930" height="536" alt="4  Rebate Overview – Filtered by Drug Name" src="https://github.com/user-attachments/assets/6997bbb7-7f4c-442d-b467-36027019323f" />
 
 
 ### 5. Claim Details – Drug Name Analysis
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
-<img width="1365" height="684" alt="Screenshot 2026-05-09 224321" src="https://github.com/user-attachments/assets/a1a4b2f3-bd86-4176-a538-8ad7b77ed39e" />
+<img width="931" height="538" alt="5  Claim Details – Drug Name Analysis" src="https://github.com/user-attachments/assets/83feb631-48c7-4e36-8730-cf45f2aaacbc" />
 
 
 ## SQL Skills Demonstrated
