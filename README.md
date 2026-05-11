@@ -53,7 +53,7 @@ Displays rebate trends, top drugs, and KPI changes after filtering by a selected
 
 ### 3. Claim Details – Therapeutic Class Analysis
 Shows claim-level transaction details and rebate performance for the selected therapeutic class.
-<img width="929" height="539" alt="3  Claim Details – Therapeutic Class Analysis" src="https://github.com/user-attachments/assets/59f22577-473e-4095-90e6-c33d57c2f645" />
+<img src="screenshots/3. Claim Details – Therapeutic Class Analysis.png" />
 
 
 ### 4. Rebate Overview – Filtered by Drug Name
