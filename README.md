@@ -55,6 +55,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Applied conditional formatting to highlight rebate performance trends
 - Designed interactive slicers for therapeutic class, drug, and plan-level filtering
 - Developed relational data modeling to support scalable analytics
+- Developed DAX measures for Total Rebate, Expected Rebate, Net Cost, and Rebate Variance analysis
 
 ## KPIs
 - Total Claims
@@ -67,7 +68,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 ## Business Insights
 - Identified Immunology as the highest rebate-contributing therapeutic class across total claims and rebate recovery
 - Detected rebate variance fluctuations where actual rebates fell below expected rebate thresholds, indicating potential rebate leakage
-- Highlighted high-cost, high-rebate drugs impacting profitability
+- Highlighted high-cost, high-rebate drugs contributing disproportionately to overall pharmacy spend
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
 ## Dashboard Screenshots
