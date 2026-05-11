@@ -48,7 +48,7 @@ Provides a high-level summary of rebate performance, claim metrics, and cost dis
 
 ### 2. Rebate Overview – Filtered by Therapeutic Class
 Displays rebate trends, top drugs, and KPI changes after filtering by a selected therapeutic class.
-<img width="929" height="536" alt="2  Rebate Overview – Filtered by Therapeutic Class" src="https://github.com/user-attachments/assets/f2046d54-3f2c-4982-9392-ff146d82c83a" />
+<img src="screenshots/2. Rebate Overview – Filtered by Therapeutic Class.png" />
 
 
 ### 3. Claim Details – Therapeutic Class Analysis
