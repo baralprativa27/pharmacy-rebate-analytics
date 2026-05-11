@@ -67,6 +67,16 @@ Provides detailed claim-level insights, rebate values, and cost analysis for the
 - GROUP BY
 - Data Cleaning
 - KPI Calculations
+
+## Key Skills Demonstrated
+- Power BI Dashboard Development
+- Data Visualization
+- Data Modeling
+- DAX Measures
+- SQL Querying
+- Business Performance Analysis
+- Interactive Reporting
+- Drill-Through Analytics
   
 
 
