@@ -43,7 +43,7 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 
 ### 1. Rebate Overview – Default View
 Provides a high-level summary of rebate performance, claim metrics, and cost distribution across all therapeutic classes.
-<img width="925" height="530" alt="1  Rebate Overview – Default View" src="https://github.com/user-attachments/assets/fc836206-159d-4bff-bfd2-77e3e3ad58a6" />
+screenshots/1. Rebate Overview – Default View.png
 
 
 ### 2. Rebate Overview – Filtered by Therapeutic Class
