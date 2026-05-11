@@ -11,12 +11,31 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 - Enable claim-level drill-through analysis
 - Detect rebate leakage by comparing actual vs expected rebate amounts across drugs and therapeutic classes
 
+## Dataset Description
+The project uses simulated pharmacy and rebate datasets stored in CSV format to replicate real-world PBM and healthcare rebate analysis scenarios. The datasets were integrated and transformed in Power BI to support KPI reporting, variance analysis, and claim-level drill-through analytics.
+
+**Datasets Included**
+| Dataset                   | Description                                                                                                                 |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Claims Data               | Contains claim-level transaction data including claim ID, drug ID, plan ID, quantity, total cost, and rebate amount         |
+| Drugs Master Data         | Includes drug attributes such as drug name, drug ID, and therapeutic class                                                  |
+| Rebate Data               | Contains rebate-related information including drug ID and rebate rate used to calculate expected rebate values              |
+| Plans Information         | Stores payer and insurance plan details used for plan-level rebate and cost analysis                                        |
+
 ## Tools & Technologies
 - Oracle SQL
 - Power BI
 - Excel / CSV
 - Data Modeling
 - DAX Measures
+
+## Data Workflow
+- Imported multiple CSV datasets into Power BI
+- Performed data cleaning and transformation in Power BI
+- Built relationships between claims, drugs, plans, and rebate tables
+- Created DAX measures for rebate KPIs and variance analysis
+- Developed interactive dashboards with drill-through reporting
+- Applied SQL concepts separately for analytical query practice
 
 ## Key Features
 - Interactive slicers and filters
