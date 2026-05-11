@@ -44,7 +44,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Designed a relational data model connecting claims, drugs, plans, and rebate tables
 - Created DAX measures for rebate KPIs, variance analysis, and financial reporting
 - Developed interactive dashboards with drill-through and dynamic filtering capabilities
-- Applied Oracle SQL concepts separately for analytical query practice and KPI calculations
+- Imported CSV datasets into Oracle SQL Developer and performed analytical querying for rebate analysis, KPI calculations, joins, and trend analysis.
 
 ## Key Features
 - Interactive slicers and filters
