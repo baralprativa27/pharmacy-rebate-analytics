@@ -34,9 +34,10 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 - Rebate Variance %
 
 ## Business Insights
-- Immunology contributed the highest share of rebates.
-- Rebate variance trends highlighted underperforming periods.
-- Dashboard enabled detailed claim-level analysis.
+- Identified Immunology as the highest rebate-contributing therapeutic class.
+- Revealed rebate variance fluctuations indicating periods of underperformance.
+- Enabled identification of high-cost, high-rebate drugs impacting profitability.
+- Supported granular claim-level analysis for financial decision-making.
 
 ## Dashboard Screenshots
 
@@ -71,12 +72,16 @@ Provides detailed claim-level insights, rebate values, and cost analysis for the
 ## Key Skills Demonstrated
 - Power BI Dashboard Development
 - Data Visualization
-- Data Modeling
-- DAX Measures
-- SQL Querying
+- Data Modeling & Transformation
+- DAX Calculations & Measures
 - Business Performance Analysis
-- Interactive Reporting
-- Drill-Through Analytics
+- Interactive Dashboard Design
+- Drill-through & Detail-Level Analytics
+
+## Impact
+- Improved visibility into rebate performance and cost distribution
+- Enabled faster identification of rebate leakage patterns
+- Provided stakeholders with self-service analytics through interactive dashboards
   
 
 
