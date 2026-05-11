@@ -43,15 +43,15 @@ Developed an interactive Power BI dashboard to analyze pharmacy rebate performan
 
 ### 1. Rebate Overview – Default View
 Provides a high-level summary of rebate performance, claim metrics, and cost distribution across all therapeutic classes.
-<img width="1358" height="690" alt="Rebate Overview" src="https://github.com/user-attachments/assets/12aeee92-ebfd-4c97-b05c-97cd8f40cf9b" />
+<img width="925" height="530" alt="1  Rebate Overview – Default View" src="https://github.com/user-attachments/assets/fc836206-159d-4bff-bfd2-77e3e3ad58a6" />
 
 ### 2. Rebate Overview – Filtered by Therapeutic Class
 Displays rebate trends, top drugs, and KPI changes after filtering by a selected therapeutic class.
-<img width="1357" height="665" alt="image" src="https://github.com/user-attachments/assets/cf4397a5-a6ed-4976-8190-821a26679212" />
+<img width="929" height="536" alt="2  Rebate Overview – Filtered by Therapeutic Class" src="https://github.com/user-attachments/assets/f2046d54-3f2c-4982-9392-ff146d82c83a" />
 
 ### 3. Claim Details – Therapeutic Class Analysis
 Shows claim-level transaction details and rebate performance for the selected therapeutic class.
-<img width="1357" height="680" alt="image" src="https://github.com/user-attachments/assets/c5f6c937-0d62-4e3a-91a6-57986af4b364" />
+<img width="929" height="539" alt="3  Claim Details – Therapeutic Class Analysis" src="https://github.com/user-attachments/assets/59f22577-473e-4095-90e6-c33d57c2f645" />
 
 ### 4. Rebate Overview – Filtered by Drug Name
 Displays rebate trends and KPI changes after selecting a specific drug.
