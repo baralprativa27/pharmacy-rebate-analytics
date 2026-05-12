@@ -33,13 +33,13 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 | Plans Information         | Stores payer and insurance plan details used for plan-level rebate and cost analysis                                        |
 
 ## Tools & Technologies
-- Power BI used for visualization and dashboarding
+- Power BI
+- Oracle SQL
 - DAX Measures
 - Power Query
-- Oracle SQL used for data validation and KPI calculations
-- Excel / CSV Data Sources
 - Data Modeling
 - Data Visualization
+- Excel / CSV Data Sources
 
 ## Data Workflow
 - Imported pharmacy claims, drug, plan, and rebate datasets from CSV files into Power BI
@@ -139,7 +139,7 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 ### 3. Rebate Leakage Analysis
 <img src="screenshots/sql/5_rebate_leakage_analysis.png" />
 
-### 4. Drug-Level Performance Analysis
+### 4. High Cost Drug Analysis
 <img src="screenshots/sql/7_high_cost_drugs.png" />
 
 ### 5. High Cost Claims Analysis
