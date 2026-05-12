@@ -1,3 +1,11 @@
+-- ============================================
+-- Project: Pharmacy Rebate Analytics Dashboard
+-- File: 04_therapeutic_class_analysis.sql
+-- Purpose:
+-- Evaluate rebate and cost performance
+-- across therapeutic classes.
+-- ============================================
+
 SELECT
     d.therapeutic_class,
     COUNT(c.claim_id) AS total_claims,
