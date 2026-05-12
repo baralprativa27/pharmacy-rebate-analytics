@@ -139,7 +139,7 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 <img src="screenshots/sql/5_rebate_leakage_analysis.png" />
 
 ### 4. Drug-Level Performance Analysis
-<img src="screenshots/sql/4_drug_level_analysis.png" />
+<img src="screenshots/sql/7_high_cost_drugs.png" />
 
 ### 5. High Cost Claims Analysis
 <img src="screenshots/sql/5_high_cost_claims.png" />
