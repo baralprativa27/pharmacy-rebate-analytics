@@ -1,3 +1,11 @@
+-- ============================================
+-- Project: Pharmacy Rebate Analytics Dashboard
+-- File: 02_rebate_leakage_analysis.sql
+-- Purpose:
+-- Compare expected rebate vs actual rebate
+-- to identify potential rebate leakage.
+-- ============================================
+
 SELECT
     d.drug_name,
     c.total_cost,
