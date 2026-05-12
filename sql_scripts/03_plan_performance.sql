@@ -1,3 +1,11 @@
+-- ============================================
+-- Project: Pharmacy Rebate Analytics Dashboard
+-- File: 03_plan_performance.sql
+-- Purpose:
+-- Analyze rebate performance, total cost,
+-- and rebate percentage across insurance plans.
+-- ============================================
+
 SELECT
     p.plan_name,
     p.plan_type,
