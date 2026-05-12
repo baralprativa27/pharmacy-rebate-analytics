@@ -5,9 +5,7 @@
 # Pharmacy Rebate Analytics Dashboard
 
 ## About This Project
-This project demonstrates my ability to work across the full analytics workflow using Oracle SQL and Power BI. I imported healthcare rebate datasets into Oracle SQL Developer, wrote SQL queries for KPI validation and business analysis, and built an interactive Power BI dashboard for financial and operational insights.
-
-The project showcases skills in SQL querying, data modeling, DAX calculations, business intelligence reporting, and healthcare analytics.
+This project demonstrates an end-to-end healthcare analytics solution using Oracle SQL and Power BI. It includes data processing, KPI validation, and interactive dashboard development for pharmacy rebate analysis.
 
 ## Project Overview
 Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims, and therapeutic class trends. The dashboard enables stakeholders to monitor financial performance and drill into detailed claim-level analytics.
@@ -107,10 +105,10 @@ Displays rebate trends and KPI changes after selecting a specific drug.
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
 <img src="screenshots/powerbi/5. Claim Details – Drug Name Analysis.png" />
 
-## Oracle SQL Analysis
+## Backend SQL Analysis (Oracle SQL)
 The pharmacy rebate datasets were imported into Oracle SQL Developer to perform backend analysis, KPI validation, and business insights before visualization in Power BI.
 
-This SQL layer supports all Power BI metrics including rebate performance, variance analysis, and cost distribution.
+SQL was used to validate and compute core KPIs (rebate %, variance, net cost), which were then visualized in Power BI dashboards for business reporting.
 
 ---
 
