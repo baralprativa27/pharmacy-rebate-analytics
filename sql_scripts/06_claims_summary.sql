@@ -13,13 +13,21 @@ SELECT
 
     SUM(rebate_amount) AS total_rebate,
 
-    SUM(total_cost) - SUM(rebate_amount)
-        AS net_cost,
+    SUM(total_cost) - SUM(rebate_amount) AS net_cost,
 
     ROUND(
-        (SUM(rebate_amount) /
-        SUM(total_cost)) * 100,
+        (SUM(rebate_amount) / SUM(total_cost)) * 100,
         2
-    ) AS rebate_percentage
+    ) AS rebate_percentage,
 
-FROM claims;
+    ROUND(
+        (
+            (SUM(rebate_amount) - SUM(total_cost * r.rebate_rate))
+            / SUM(total_cost * r.rebate_rate)
+        ) * 100,
+        2
+    ) AS rebate_variance_percentage
+
+FROM claims c
+JOIN rebate r
+    ON c.drug_id = r.drug_id;
