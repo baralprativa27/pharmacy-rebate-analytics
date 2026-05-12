@@ -124,6 +124,7 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 | 06_claims_summary.sql | Provides overall KPI summary (claims, cost, rebate, net cost) |
 | 07_high_cost_drugs.sql | Identifies high-cost drugs and financial impact |
 | 08_rebate_variance_by_drug.sql | Measures variance between expected and actual rebate |
+| 09_high_cost_claims.sql | Identifies high-cost pharmacy claims and analyzes rebate-adjusted financial impact |
 
 ---
 
