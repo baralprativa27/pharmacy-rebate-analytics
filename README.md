@@ -80,27 +80,27 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 
 ### 1. Rebate Overview – Default View
 Provides a high-level summary of rebate performance, claim metrics, and cost distribution across all therapeutic classes.
-<img src="screenshots/1. Rebate Overview – Default View.png" />
+<img src="screenshots/powerbi/1. Rebate Overview – Default View.png" />
 
 
 ### 2. Rebate Overview – Filtered by Therapeutic Class
 Displays rebate trends, top drugs, and KPI changes after filtering by a selected therapeutic class.
-<img src="screenshots/2. Rebate Overview – Filtered by Therapeutic Class.png" />
+<img src="screenshots/powerbi/2. Rebate Overview – Filtered by Therapeutic Class.png" />
 
 
 ### 3. Claim Details – Therapeutic Class Analysis
 Shows claim-level transaction details and rebate performance for the selected therapeutic class.
-<img src="screenshots/3. Claim Details – Therapeutic Class Analysis.png" />
+<img src="screenshots/powerbi/3. Claim Details – Therapeutic Class Analysis.png" />
 
 
 ### 4. Rebate Overview – Filtered by Drug Name
 Displays rebate trends and KPI changes after selecting a specific drug.
-<img src="screenshots/4. Rebate Overview – Filtered by Drug Name.png" />
+<img src="screenshots/powerbi/4. Rebate Overview – Filtered by Drug Name.png" />
 
 
 ### 5. Claim Details – Drug Name Analysis
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
-<img src="screenshots/5. Claim Details – Drug Name Analysis.png" />
+<img src="screenshots/powerbi/5. Claim Details – Drug Name Analysis.png" />
 
 
 ## SQL Skills Demonstrated
