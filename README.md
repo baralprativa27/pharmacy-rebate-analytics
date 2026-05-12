@@ -111,8 +111,7 @@ The pharmacy rebate datasets were imported into Oracle SQL Developer to perform 
 
 SQL was used to validate and compute core KPIs (rebate %, variance, net cost), which were then visualized in Power BI dashboards for business reporting.
 
-
-## SQL Scripts Included
+**SQL Scripts Included**
 
 | Script | Purpose |
 |------|--------|
