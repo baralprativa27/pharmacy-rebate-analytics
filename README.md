@@ -30,10 +30,10 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 | Plans Information         | Stores payer and insurance plan details used for plan-level rebate and cost analysis                                        |
 
 ## Tools & Technologies
-- Power BI
+- Power BI used for visualization and dashboarding
 - DAX Measures
 - Power Query
-- Oracle SQL
+- Oracle SQL used for data validation and KPI calculations
 - Excel / CSV Data Sources
 - Data Modeling
 - Data Visualization
@@ -45,6 +45,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Created DAX measures for rebate KPIs, variance analysis, and financial reporting
 - Developed interactive dashboards with drill-through and dynamic filtering capabilities
 - Imported CSV datasets into Oracle SQL Developer and performed analytical querying for rebate analysis, KPI calculations, joins, and trend analysis.
+- SQL scripts were used to validate rebate logic and compute KPIs, while Power BI was used for interactive dashboards and visual storytelling.
 
 ## Key Features
 - Interactive slicers and filters
