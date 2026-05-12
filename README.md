@@ -107,6 +107,45 @@ Displays rebate trends and KPI changes after selecting a specific drug.
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
 <img src="screenshots/powerbi/5. Claim Details – Drug Name Analysis.png" />
 
+## Oracle SQL Analysis
+The pharmacy rebate datasets were imported into Oracle SQL Developer to perform backend analysis, KPI validation, and business insights before visualization in Power BI.
+
+This SQL layer supports all Power BI metrics including rebate performance, variance analysis, and cost distribution.
+
+---
+
+## SQL Scripts Included
+
+| Script | Purpose |
+|------|--------|
+| 01_top_rebate_drugs.sql | Identifies highest rebate-generating drugs |
+| 02_rebate_leakage_analysis.sql | Detects potential rebate leakage between expected vs actual rebate |
+| 03_plan_performance.sql | Analyzes cost and rebate performance by insurance plan |
+| 04_therapeutic_class_analysis.sql | Evaluates rebate trends by therapeutic class |
+| 05_monthly_rebate_trends.sql | Tracks monthly cost and rebate trends |
+| 06_claims_summary.sql | Provides overall KPI summary (claims, cost, rebate, net cost) |
+| 07_high_cost_drugs.sql | Identifies high-cost drugs and financial impact |
+| 08_rebate_variance_by_drug.sql | Measures variance between expected and actual rebate |
+
+---
+
+## Oracle SQL Screenshots
+
+### 1. Database Schema
+<img src="screenshots/sql/1_database_tables.png" />
+
+### 2. KPI Summary Query
+<img src="screenshots/sql/2_kpi_analysis.png" />
+
+### 3. Rebate Leakage Analysis
+<img src="screenshots/sql/3_rebate_leakage.png" />
+
+### 4. Drug-Level Performance Analysis
+<img src="screenshots/sql/4_drug_level_analysis.png" />
+
+### 5. High Cost Claims Analysis
+<img src="screenshots/sql/5_high_cost_claims.png" />
+
 
 ## SQL Skills Demonstrated
 - Joins
