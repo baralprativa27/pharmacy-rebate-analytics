@@ -105,6 +105,7 @@ Displays rebate trends and KPI changes after selecting a specific drug.
 Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
 <img src="screenshots/powerbi/5. Claim Details – Drug Name Analysis.png" />
 
+
 ## Backend SQL Analysis (Oracle SQL)
 The pharmacy rebate datasets were imported into Oracle SQL Developer to perform backend analysis, KPI validation, and business insights before visualization in Power BI.
 
