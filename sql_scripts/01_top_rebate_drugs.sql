@@ -1,3 +1,11 @@
+-- ============================================
+-- Project: Pharmacy Rebate Analytics Dashboard
+-- File: 01_top_rebate_drugs.sql
+-- Purpose:
+-- Identify top rebate-generating drugs and
+-- analyze therapeutic class contribution.
+-- ============================================
+
 SELECT
     d.drug_name,
     SUM(c.rebate_amount) AS total_rebate
