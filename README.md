@@ -79,7 +79,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Highlighted high-cost, high-rebate drugs contributing disproportionately to overall pharmacy spend
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
-## Dashboard Screenshots
+## Power BI Dashboard Screenshots
 
 ### 1. Rebate Overview – Default View
 Provides a high-level summary of rebate performance, claim metrics, and cost distribution across all therapeutic classes.
