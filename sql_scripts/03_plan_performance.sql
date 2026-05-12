@@ -1,7 +1,7 @@
 SELECT
     p.plan_name,
     p.plan_type,
-    COUNT(c.claim) AS total_claims,
+    COUNT(c.claim_id) AS total_claims,
     SUM(c.total_cost) AS total_cost,
     SUM(c.rebate_amount) AS total_rebate,
     
