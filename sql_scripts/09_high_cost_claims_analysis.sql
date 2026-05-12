@@ -1,4 +1,10 @@
--- High Cost Claims Analysis
+-- ============================================
+-- Project: Pharmacy Rebate Analytics Dashboard
+-- File: 09_high_cost_claims_analysis.sql
+-- Purpose:
+-- Identify high-cost pharmacy claims and
+-- analyze their rebate-adjusted financial impact.
+-- ============================================
 
 SELECT
     c.claim_id,
