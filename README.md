@@ -46,13 +46,12 @@ The following architecture illustrates the end-to-end analytics workflow used fo
 <img src="screenshots/solution_architecture.png" />
 
 ## Data Workflow
-- Imported pharmacy claims, drug, plan, and rebate datasets from CSV files into Power BI
-- Performed data cleaning and transformation using Power Query
-- Designed a relational data model connecting claims, drugs, plans, and rebate tables
-- Created DAX measures for rebate KPIs, variance analysis, and financial reporting
-- Developed interactive dashboards with drill-through and dynamic filtering capabilities
-- Imported CSV datasets into Oracle SQL Developer and performed analytical querying for rebate analysis, KPI calculations, joins, and trend analysis.
-- SQL scripts were used to validate rebate logic and compute KPIs, while Power BI was used for interactive dashboards and visual storytelling.
+- Imported pharmacy claims, drug, rebate, and plan datasets from CSV files into Oracle SQL Developer and Power BI.
+- Performed SQL-based analysis including joins, aggregations, KPI validation, rebate variance calculations, and leakage detection.
+- Used Power Query for data cleaning, transformation, standardization, and dataset integration.
+- Designed a relational Power BI data model connecting claims, drugs, plans, and rebate tables.
+- Developed DAX measures for Total Rebate, Expected Rebate, Net Cost, Rebate %, and Variance analysis.
+- Built interactive dashboards with slicers, drill-through pages, and dynamic filtering for claim-level investigation and financial reporting.
 
 ## Key Features
 - Interactive slicers and filters
