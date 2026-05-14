@@ -48,6 +48,7 @@ The following architecture illustrates the end-to-end analytics workflow used fo
 
 ## Data Model
 Built a star-schema data model in Power BI with a central Claims fact table connected to Drug, Plan, Date, and Rebate dimensions.
+
 <img src="screenshots/powerbi/6. Data Model.png" />
 
 ## Data Workflow
