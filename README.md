@@ -23,6 +23,7 @@ Pharmacy benefit organizations must closely monitor rebate performance, drug cos
 
 ## Dataset Description
 The project uses simulated pharmacy and rebate datasets stored in CSV format to replicate real-world PBM and healthcare rebate analysis scenarios. The datasets were integrated and transformed in Power BI to support KPI reporting, variance analysis, and claim-level drill-through analytics.
+The dataset includes pharmacy claims across multiple therapeutic classes, drugs, and insurance plans to enable rebate performance analysis and financial reporting.
 
 **Datasets Included**
 | Dataset                   | Description                                                                                                                 |
@@ -54,11 +55,11 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 ## Data Workflow
 - Imported pharmacy claims, drug, rebate, and plan datasets from CSV files into Oracle SQL Developer and Power BI.
 - Performed SQL-based analysis including joins, aggregations, KPI validation, rebate variance calculations, and leakage detection.
-- Used Power Query for data cleaning, transformation, standardization, and dataset integration.
+- Used Power Query for data cleaning, transformation, and preparation for analysis.
 - Designed a relational Power BI data model connecting claims, drugs, plans, and rebate tables.
-- Developed DAX measures for Total Rebate, Expected Rebate, Net Cost, Rebate %, and Variance analysis.
-- Built interactive dashboards with slicers, drill-through pages, and dynamic filtering for claim-level investigation and financial reporting.
-
+- Developed DAX measures for key KPIs including Rebate %, Net Cost, and Variance analysis.
+- Built interactive dashboards with slicers and drill-through capabilities.
+  
 ## Key Features
 - Interactive slicers and filters
 - KPI tracking dashboard
@@ -67,11 +68,12 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Rebate variance monitoring
 
 ## Technical Highlights
-- Built reusable DAX measures for KPI calculations including Rebate %, Net Cost, and Variance analysis
-- Implemented drill-through pages for claim-level investigation
-- Applied conditional formatting to highlight rebate performance trends
-- Designed interactive slicers for therapeutic class, drug, and plan-level filtering
-- Developed relational data modeling to support scalable analytics
+- Power BI Dashboard Development & Visualization
+- Data Modeling & Transformation using Power BI
+- DAX Measures & KPI Development (Rebate %, Net Cost, Variance Analysis)
+- SQL-based Analytical Processing for KPI validation and rebate analysis
+- Drill-through & Self-service analytics for claim-level investigation
+- Interactive dashboard design with slicers and conditional formatting
 
 ## KPIs
 - Total Claims Processed
@@ -152,12 +154,11 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 
 
 ## SQL Skills Demonstrated
-- Joins
-- Aggregations
-- CASE Statements
-- GROUP BY
-- Data Cleaning
-- KPI Calculations
+- SQL Joins & Multi-table Analysis
+- Aggregations & Group By Analysis
+- CASE-based Conditional Logic
+- KPI Calculation using SQL
+- Data Validation & Reconciliation
 
 ## Key Skills Demonstrated
 - Power BI Dashboard Development
