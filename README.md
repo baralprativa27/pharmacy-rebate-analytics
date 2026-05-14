@@ -48,8 +48,7 @@ The following architecture illustrates the end-to-end analytics workflow used fo
 
 ## Data Model
 Designed a star-schema data model with a central Claims fact table connected to Drug, Plan, Date, and Rebate dimensions for scalable KPI analysis.
-<img src="screenshots/powerbi/Data Model.png" />
-
+<img src="screenshots/powerbi/6. Data Model.png" />
 
 ## Data Workflow
 - Imported pharmacy claims, drug, rebate, and plan datasets from CSV files into Oracle SQL Developer and Power BI.
