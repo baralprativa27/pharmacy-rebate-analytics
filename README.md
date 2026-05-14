@@ -62,19 +62,18 @@ The following architecture illustrates the end-to-end analytics workflow used fo
 - Rebate variance monitoring
 
 ## Technical Highlights
-- Built reusable DAX measures for KPI calculations and variance tracking
+- Built reusable DAX measures for KPI calculations including Rebate %, Net Cost, and Variance analysis
 - Implemented drill-through pages for claim-level investigation
 - Applied conditional formatting to highlight rebate performance trends
 - Designed interactive slicers for therapeutic class, drug, and plan-level filtering
 - Developed relational data modeling to support scalable analytics
-- Developed DAX measures for Total Rebate, Expected Rebate, Net Cost, and Rebate Variance analysis
 
 ## KPIs
-- Total Claims
-- Total Cost
-- Total Rebate
-- Net Cost
-- Rebate %
+- Total Claims Processed
+- Total Pharmacy Spend
+- Total Rebate Amount
+- Net Drug Cost
+- Rebate Efficiency %
 - Rebate Variance %
 
 ## Business Insights
@@ -165,10 +164,10 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 - Drill-through & Detail-Level Analytics
 
 ## Business Impact
-- Enabled rebate leakage detection through expected vs actual rebate variance analysis
-- Reduced manual KPI analysis by consolidating pharmacy claims and rebate metrics into a centralized dashboard
-- Improved financial monitoring through drill-through claim-level analytics
-- Delivered self-service reporting capabilities for therapeutic class and drug-level rebate analysis
+- Enabled identification of rebate leakage through variance analysis between expected and actual rebates
+- Improved visibility into pharmacy spend and rebate efficiency across therapeutic classes
+- Reduced manual reporting effort by centralizing KPI tracking in an interactive Power BI dashboard
+- Supported claim-level financial investigation through drill-through analytics
   
 
 
