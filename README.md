@@ -80,57 +80,9 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
 ## Solution Architecture
-
-                    ┌──────────────────────┐
-                    │   CSV Data Sources   │
-                    │----------------------│
-                    │ • Claims Data        │
-                    │ • Drug Master Data   │
-                    │ • Rebate Data        │
-                    │ • Plan Information   │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │   Oracle SQL Developer   │
-                 │--------------------------│
-                 │ • Data Import            │
-                 │ • SQL Joins              │
-                 │ • KPI Calculations       │
-                 │ • Rebate Validation      │
-                 │ • Leakage Analysis       │
-                 └──────────┬───────────────┘
-                            │
-                            ▼
-                 ┌──────────────────────────┐
-                 │     Power Query ETL      │
-                 │--------------------------│
-                 │ • Data Cleaning          │
-                 │ • Data Transformation    │
-                 │ • Column Standardization │
-                 │ • Data Preparation       │
-                 └──────────┬───────────────┘
-                            │
-                            ▼
-                 ┌──────────────────────────┐
-                 │   Power BI Data Model    │
-                 │--------------------------│
-                 │ • Table Relationships    │
-                 │ • DAX Measures           │
-                 │ • KPI Logic              │
-                 │ • Star Schema Modeling   │
-                 └──────────┬───────────────┘
-                            │
-                            ▼
-                 ┌──────────────────────────┐
-                 │ Interactive BI Dashboard │
-                 │--------------------------│
-                 │ • Rebate KPIs            │
-                 │ • Trend Analysis         │
-                 │ • Drill-through Reports  │
-                 │ • Financial Insights     │
-                 └──────────────────────────┘
-
+<img src="screenshots/solution_architecture.png.png" />
+           
+             
 ## Power BI Dashboard Screenshots
 
 ### 1. Rebate Overview – Default View
