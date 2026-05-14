@@ -79,6 +79,64 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Highlighted high-cost, high-rebate drugs contributing disproportionately to overall pharmacy spend
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
+## Solution Architecture
+                              PHARMACY REBATE ANALYTICS ARCHITECTURE
+
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                                  DATA SOURCES                                           │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                          │
+│   Claims Data CSV      Drug Master CSV      Rebate Data CSV      Plans Information CSV   │
+│                                                                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                               ORACLE SQL PROCESSING                                      │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Data Import into Oracle SQL Developer                                                  │
+│ • Data Validation & Cleaning                                                             │
+│ • SQL Joins & Aggregations                                                               │
+│ • KPI Calculations                                                                       │
+│ • Rebate Leakage Analysis                                                                │
+│ • Therapeutic Class Analysis                                                             │
+│ • Cost & Financial Trend Analysis                                                        │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                                  POWER QUERY ETL                                         │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Data Transformation                                                                    │
+│ • Data Type Standardization                                                              │
+│ • Missing Value Handling                                                                 │
+│ • Dataset Integration                                                                    │
+│ • Data Preparation for Reporting                                                         │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                               POWER BI DATA MODEL                                        │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Relational Data Modeling                                                               │
+│ • Fact & Dimension Relationships                                                         │
+│ • DAX Measures & KPI Logic                                                               │
+│ • Net Cost & Rebate Variance Calculations                                                │
+│ • Interactive Filtering & Drill-through Support                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+                                            │
+                                            ▼
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                           INTERACTIVE BI DASHBOARD                                       │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Rebate Performance Monitoring                                                          │
+│ • Cost vs Net Cost Analysis                                                              │
+│ • Therapeutic Class Insights                                                             │
+│ • High-Cost Drug Analysis                                                                │
+│ • Claim-Level Drill-through Analytics                                                    │
+│ • Rebate Leakage Detection                                                               │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+
 ## Power BI Dashboard Screenshots
 
 ### 1. Rebate Overview – Default View
@@ -160,10 +218,11 @@ SQL was used to validate and compute core KPIs (rebate %, variance, net cost), w
 - Interactive Dashboard Design
 - Drill-through & Detail-Level Analytics
 
-## Impact
-- Improved visibility into rebate performance and cost distribution
-- Enabled faster identification of rebate leakage patterns
-- Provided stakeholders with self-service analytics through interactive dashboards
+## Business Impact
+- Enabled rebate leakage detection through expected vs actual rebate variance analysis
+- Reduced manual KPI analysis by consolidating pharmacy claims and rebate metrics into a centralized dashboard
+- Improved financial monitoring through drill-through claim-level analytics
+- Delivered self-service reporting capabilities for therapeutic class and drug-level rebate analysis
   
 
 
