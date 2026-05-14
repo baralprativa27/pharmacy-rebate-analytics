@@ -42,6 +42,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Excel / CSV Data Sources
 
 ## Solution Architecture
+The following architecture illustrates the end-to-end analytics workflow used for pharmacy rebate analysis, from raw CSV ingestion and SQL validation to Power BI dashboard reporting.
 <img src="screenshots/solution_architecture.png" />
 
 ## Data Workflow
