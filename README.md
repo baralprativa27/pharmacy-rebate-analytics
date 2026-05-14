@@ -80,7 +80,7 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
 ## Solution Architecture
-<img src="screenshots/solution_architecture.png.png" />
+<img src="screenshots/solution_architecture.png" />
            
              
 ## Power BI Dashboard Screenshots
