@@ -41,6 +41,9 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Data Visualization
 - Excel / CSV Data Sources
 
+## Solution Architecture
+<img src="screenshots/solution_architecture.png" />
+
 ## Data Workflow
 - Imported pharmacy claims, drug, plan, and rebate datasets from CSV files into Power BI
 - Performed data cleaning and transformation using Power Query
@@ -79,10 +82,6 @@ The project uses simulated pharmacy and rebate datasets stored in CSV format to 
 - Highlighted high-cost, high-rebate drugs contributing disproportionately to overall pharmacy spend
 - Enabled claim-level analysis to support financial investigation and rebate performance monitoring
 
-## Solution Architecture
-<img src="screenshots/solution_architecture.png" />
-           
-             
 ## Power BI Dashboard Screenshots
 
 ### 1. Rebate Overview – Default View
