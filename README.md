@@ -23,7 +23,7 @@ Pharmacy organizations need to track rebate performance, drug costs, and claims 
 
 ## Dataset Description
 The project uses simulated pharmacy and rebate datasets stored in CSV format to replicate real-world PBM and healthcare rebate analysis scenarios. The datasets were integrated and transformed in Power BI to support KPI reporting, variance analysis, and detailed claim analysis.
-It includes pharmacy claims across multiple therapeutic classes, drugs, and insurance plans to enable rebate performance and financial analysis.
+The dataset includes pharmacy claims across multiple therapeutic classes, drugs, and insurance plans for rebate performance and financial analysis.
 
 **Datasets Included**
 | Dataset                   | Description                                                                                                                 |
