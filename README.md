@@ -8,10 +8,10 @@
 This project demonstrates an end-to-end healthcare analytics solution using Oracle SQL and Power BI. It includes data processing, KPI validation, and interactive dashboard development for pharmacy rebate analysis.
 
 ## Project Overview
-Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims, and therapeutic class trends. The dashboard enables stakeholders to monitor financial performance and drill into detailed claim-level analytics.
+Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims, and therapeutic class trends. The dashboard helps analyze rebate performance, drug costs, claims trends, and detailed transaction data.
 
 ## Business Problem
-Pharmacy benefit organizations must closely monitor rebate performance, drug costs, and claims activity to reduce financial leakage and optimize reimbursement strategies. Manual analysis of rebate data can make it difficult to identify underperforming therapeutic classes, high-cost drugs, and rebate discrepancies across plans and claims.
+Pharmacy organizations need to track rebate performance, drug costs, and claims activity to identify high-cost drugs, rebate differences, and trends across therapeutic classes. Manual analysis of rebate data can be time-consuming and difficult to manage efficiently.
 
 ## Objectives
 - Track pharmacy rebate performance
@@ -22,7 +22,7 @@ Pharmacy benefit organizations must closely monitor rebate performance, drug cos
 - Detect rebate leakage by comparing actual vs expected rebate amounts across drugs and therapeutic classes
 
 ## Dataset Description
-The project uses simulated pharmacy and rebate datasets stored in CSV format to replicate real-world PBM and healthcare rebate analysis scenarios. The datasets were integrated and transformed in Power BI to support KPI reporting, variance analysis, and claim-level drill-through analytics.
+The project uses simulated pharmacy and rebate datasets stored in CSV format to replicate real-world PBM and healthcare rebate analysis scenarios. The datasets were integrated and transformed in Power BI to support KPI reporting, variance analysis, and detailed claim analysis.
 It includes pharmacy claims across multiple therapeutic classes, drugs, and insurance plans to enable rebate performance and financial analysis.
 
 **Datasets Included**
@@ -57,7 +57,7 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Performed SQL-based analysis including joins, aggregations, KPI validation, rebate variance calculations, and leakage detection.
 - Used Power Query for data cleaning, transformation, and preparation for analysis.
 - Designed a relational Power BI data model connecting claims, drugs, plans, and rebate tables.
-- Developed DAX measures for key KPIs including Rebate %, Net Cost, and Variance analysis.
+- Developed DAX measures for KPIs including Rebate %, Net Cost, and Rebate Variance.
 - Built interactive dashboards with slicers and drill-through capabilities.
   
 ## Key Features
@@ -72,7 +72,7 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Data Modeling & Transformation using Power BI
 - DAX Measures & KPI Development (Rebate %, Net Cost, Variance Analysis)
 - SQL-based Analytical Processing for KPI validation and rebate analysis
-- Drill-through & Self-service analytics for claim-level investigation
+- Drill-through analysis for detailed claim investigation
 - Interactive dashboard design with slicers and conditional formatting
 
 ## KPIs
@@ -117,9 +117,7 @@ Provides detailed claim-level insights, rebate values, and cost analysis for the
 
 
 ## Backend SQL Analysis (Oracle SQL)
-The pharmacy rebate datasets were imported into Oracle SQL Developer to perform backend analysis, KPI validation, and business insights before visualization in Power BI.
-
-SQL was used to validate and compute core KPIs (rebate %, variance, net cost), which were then visualized in Power BI dashboards for business reporting.
+Oracle SQL was used for KPI validation, rebate variance analysis, and backend data processing before dashboard visualization in Power BI.
 
 **SQL Scripts Included**
 | Script | Purpose |
