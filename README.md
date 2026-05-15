@@ -8,7 +8,7 @@
 This project demonstrates an end-to-end healthcare analytics solution using Oracle SQL and Power BI. It includes data processing, KPI validation, and interactive dashboard development for pharmacy rebate analysis.
 
 ## Project Overview
-Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims, and therapeutic class trends. The dashboard helps analyze rebate performance, drug costs, claims trends, and detailed transaction data.
+Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims trends, and therapeutic class insights.
 
 ## Business Problem
 Pharmacy organizations need to track rebate performance, drug costs, and claims activity to identify high-cost drugs, rebate differences, and trends across therapeutic classes. Manual analysis of rebate data can be time-consuming and difficult to manage efficiently.
