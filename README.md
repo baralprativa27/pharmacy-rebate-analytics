@@ -54,7 +54,7 @@ The following architecture illustrates the end-to-end analytics workflow used fo
 ## Data Model
 Built a star-schema data model in Power BI with a central Claims fact table connected to Drug, Plan, Date, and Rebate dimensions.
 
-<img src="screenshots/powerbi/6. Data Model.png" />
+<img src="screenshots/powerbi/6. Data Model" />
 
 ## Data Workflow
 - Imported pharmacy claims, drug, rebate, and plan datasets from CSV files into Oracle SQL Developer and Power BI.
@@ -113,7 +113,7 @@ Analyzes cost vs. rebate trends, therapeutic class performance, and rebate varia
 
 ### 4. Rebate Analysis – Filtered View
 Shows how rebate performance, trends, and variance metrics change after applying filters such as therapeutic class or drug name.
-<img src="screenshots/powerbi/4. Rebate Analysis – Filtered View" />
+<img src="screenshots/powerbi/4. Rebate Analysis – Filtered View.png" />
 
 
 ### 5. Claim Details – Filtered Analysis
