@@ -69,6 +69,7 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Trend analysis
 - Drill-through claim details
 - Rebate variance monitoring
+- Multi-page dashboard navigation (Overview → Analysis → Details)
 
 ## Technical Highlights
 - Power BI Dashboard Development & Visualization
