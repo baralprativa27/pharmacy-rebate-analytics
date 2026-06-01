@@ -8,7 +8,7 @@
 This project demonstrates an end-to-end healthcare analytics solution using Oracle SQL and Power BI. It includes data processing, KPI validation, and interactive dashboard development for pharmacy rebate analysis.
 
 ## Project Overview
-Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims trends, and therapeutic class insights. The solution is organized into three reporting layers:
+Developed an end-to-end healthcare analytics solution using Oracle SQL and Power BI to analyze pharmacy rebate performance, drug costs, rebate variance, and claim-level trends. The solution is organized into three reporting layers:
 
 - Rebate Overview: Executive summary of rebate KPIs, therapeutic distribution, and top-performing drugs.
 - Rebate Analysis: Cost vs. rebate trends, variance analysis, and therapeutic class performance.
@@ -69,6 +69,7 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Trend analysis
 - Drill-through claim details
 - Rebate variance monitoring
+- Rebate leakage detection using expected vs actual rebate analysis
 - Multi-page dashboard navigation (Overview → Analysis → Details)
 
 ## Technical Highlights
@@ -80,9 +81,9 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Interactive dashboard design with slicers and conditional formatting
 
 ## KPIs
-- Total Pharmacy Claims Processed
-- Total Pharmacy Spend
-- Total Rebate Recovery
+- Total Claims
+- Total Drug Cost
+- Total Rebate Amount
 - Net Drug Cost
 - Rebate Efficiency %
 - Rebate Variance %
@@ -95,17 +96,17 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 
 ## Power BI Dashboard Screenshots
 
-### 1. Rebate Overview – Default View
+### 1. Rebate Overview 
 Provides a high-level summary of rebate performance, KPI metrics, therapeutic distribution, and top rebate-generating drugs across all data.
 <img src="screenshots/powerbi/1. Rebate Overview – Default View.png" />
 
 
-### 2. Rebate Overview – Filtered by Therapeutic Class
+### 2. Rebate Overview – Therapeutic Class Filter
 Displays KPI changes, rebate distribution, and top-performing drugs after applying a therapeutic class filter.
 <img src="screenshots/powerbi/2. Rebate Overview – Filtered by Therapeutic Class.png" />
 
 
-### 3. Rebate Analysis – Default View
+### 3. Rebate Analysis 
 Analyzes cost vs. rebate trends, therapeutic class performance, and rebate variance insights across all data.
 <img src="screenshots/powerbi/3. Rebate Analysis – Default View.png" />
 
@@ -115,7 +116,7 @@ Shows how rebate performance, trends, and variance metrics change after applying
 <img src="screenshots/powerbi/4. Rebate Analysis – Filtered View.png" />
 
 
-### 5. Claim Details – Filtered Analysis
+### 5. Claim Details 
 Displays claim-level details for investigating rebate performance, costs, and variance based on the selected filters or drill-through context.
 <img src="screenshots/powerbi/5. Claim Details – Filtered Analysis.png" />
 
