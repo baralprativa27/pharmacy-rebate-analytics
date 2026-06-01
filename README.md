@@ -89,10 +89,10 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 - Rebate Variance %
 
 ## Business Insights
-- Identified Immunology as the highest rebate-contributing therapeutic class across total claims and rebate recovery
-- Detected rebate variance fluctuations where actual rebates fell below expected rebate thresholds, indicating potential rebate leakage
-- Highlighted high-cost, high-rebate drugs contributing disproportionately to overall pharmacy spend
-- Enabled claim-level analysis to support financial investigation and rebate performance monitoring
+- Identified Immunology as the highest rebate-contributing therapeutic class, driving the largest share of rebate recovery.
+- Detected rebate leakage opportunities through expected vs. actual rebate variance analysis.
+- Highlighted top cost-driving and top rebate-generating drugs for targeted financial monitoring.
+- Enabled drill-through claim analysis to support rebate investigation and operational decision-making.
 
 ## Power BI Dashboard Screenshots
 
