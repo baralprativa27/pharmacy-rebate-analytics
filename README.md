@@ -97,28 +97,28 @@ Built a star-schema data model in Power BI with a central Claims fact table conn
 ## Power BI Dashboard Screenshots
 
 ### 1. Rebate Overview – Default View
-Provides a high-level summary of rebate performance, claim metrics, and cost distribution across all therapeutic classes.
+Provides a high-level summary of rebate performance, KPI metrics, therapeutic distribution, and top rebate-generating drugs across all data.
 <img src="screenshots/powerbi/1. Rebate Overview – Default View.png" />
 
 
 ### 2. Rebate Overview – Filtered by Therapeutic Class
-Displays rebate trends, top drugs, and KPI changes after filtering by a selected therapeutic class.
+Displays KPI changes, rebate distribution, and top-performing drugs after applying a therapeutic class filter.
 <img src="screenshots/powerbi/2. Rebate Overview – Filtered by Therapeutic Class.png" />
 
 
-### 3. Claim Details – Therapeutic Class Analysis
-Shows claim-level transaction details and rebate performance for the selected therapeutic class.
-<img src="screenshots/powerbi/3. Claim Details – Therapeutic Class Analysis.png" />
+### 3. Rebate Analysis – Default View
+Analyzes cost vs. rebate trends, therapeutic class performance, and rebate variance insights across all data.
+<img src="screenshots/powerbi/3. Rebate Analysis – Default View.png" />
 
 
-### 4. Rebate Overview – Filtered by Drug Name
-Displays rebate trends and KPI changes after selecting a specific drug.
-<img src="screenshots/powerbi/4. Rebate Overview – Filtered by Drug Name.png" />
+### 4. Rebate Analysis – Filtered View
+Shows how rebate performance, trends, and variance metrics change after applying filters such as therapeutic class or drug name.
+<img src="screenshots/powerbi/4. Rebate Analysis – Filtered View" />
 
 
-### 5. Claim Details – Drug Name Analysis
-Provides detailed claim-level insights, rebate values, and cost analysis for the selected drug.
-<img src="screenshots/powerbi/5. Claim Details – Drug Name Analysis.png" />
+### 5. Claim Details – Filtered Analysis
+Displays claim-level details for investigating rebate performance, costs, and variance based on the selected filters or drill-through context.
+<img src="screenshots/powerbi/5. Claim Details – Filtered Analysis.png" />
 
 
 ## Backend SQL Analysis (Oracle SQL)
