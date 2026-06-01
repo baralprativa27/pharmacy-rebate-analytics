@@ -9,6 +9,7 @@ This project demonstrates an end-to-end healthcare analytics solution using Orac
 
 ## Project Overview
 Developed an interactive Power BI dashboard to analyze pharmacy rebate performance, drug costs, claims trends, and therapeutic class insights. The solution is organized into three reporting layers:
+
 Rebate Overview – Executive summary of rebate KPIs, therapeutic distribution, and top-performing drugs.
 Rebate Analysis – Cost vs. rebate trends, variance analysis, and therapeutic class performance.
 Claim Details – Transaction-level claim reporting for detailed investigation and drill-through analysis.
