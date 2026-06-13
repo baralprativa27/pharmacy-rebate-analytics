@@ -10,7 +10,7 @@ SELECT
     d.therapeutic_class,
 
     COUNT(c.claim_id) AS total_claims,
-    ROUND(SUM(c.total_cost), 2) AS total_cost
+    ROUND(SUM(c.total_cost), 2) AS total_cost,
     
     ROUND(
         AVG(c.total_cost),
