@@ -6,8 +6,8 @@
 -- across therapeutic classes.
 --
 -- Optimization Notes:
--- Aggregate claims at drug level first, then
--- roll up to therapeutic class for analysis.
+-- Join claims with drugs to enrich therapeutic class
+-- before aggregating at class level for reporting.
 -- ============================================
 
 WITH claim_enriched AS (
