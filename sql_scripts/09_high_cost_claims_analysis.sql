@@ -28,6 +28,6 @@ JOIN drugs d
 JOIN plans p
     ON c.plan_id = p.plan_id
 
-WHERE c.total_cost > 5000
+WHERE c.total_cost > 2000
 
 ORDER BY c.total_cost DESC;
