@@ -11,16 +11,13 @@ SELECT
     d.therapeutic_class,
 
     COUNT(c.claim_id) AS total_claims,
-
     SUM(c.total_cost) AS total_cost,
-
     ROUND(
         AVG(c.total_cost),
         2
     ) AS average_claim_cost
 
 FROM claims c
-
 JOIN drugs d
     ON c.drug_id = d.drug_id
 
