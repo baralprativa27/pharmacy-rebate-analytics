@@ -4,20 +4,31 @@
 -- Purpose:
 -- Evaluate rebate and cost performance
 -- across therapeutic classes.
+--
+-- Optimization Notes:
+-- Aggregate claims at drug level first, then
+-- roll up to therapeutic class for analysis.
 -- ============================================
 
+WITH claim_enriched AS (
+    SELECT
+        d.therapeutic_class,
+        c.claim_id,
+        c.total_cost,
+        c.rebate_amount
+    FROM claims c
+    JOIN drugs d
+        ON c.drug_id = d.drug_id
+)
+
 SELECT
-    d.therapeutic_class,
-    COUNT(c.claim_id) AS total_claims,
-    SUM(c.total_cost) AS total_cost,
-    SUM(c.rebate_amount) AS total_rebate,
-    
-    ROUND(
-        AVG(c.rebate_amount),
-        2
-    ) AS avg_rebate
-FROM claims c
-JOIN drugs d
-    ON c.drug_id = d.drug_id
-GROUP BY d.therapeutic_class
+    therapeutic_class,
+    COUNT(claim_id) AS total_claims,
+    SUM(total_cost) AS total_cost,
+    SUM(rebate_amount) AS total_rebate,
+
+    ROUND(AVG(rebate_amount), 2) AS avg_rebate
+
+FROM claim_enriched
+GROUP BY therapeutic_class
 ORDER BY total_rebate DESC;
