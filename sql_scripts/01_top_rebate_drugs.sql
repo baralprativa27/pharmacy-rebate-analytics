@@ -22,7 +22,7 @@ WITH rebate_by_drug AS (
 SELECT
     d.drug_name,
     d.therapeutic_class,
-    rbd.total_rebate
+    ROUND(rbd.total_rebate, 2) AS total_rebate
 
 FROM rebate_by_drug rbd
 
