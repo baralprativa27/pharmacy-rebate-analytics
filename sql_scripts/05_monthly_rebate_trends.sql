@@ -6,9 +6,9 @@
 -- total cost, and rebate recovery.
 --
 -- Optimization Notes:
--- Group by month-level truncated date instead
--- of string formatting for better performance
--- and time-series consistency.
+-- Group by truncated month date to ensure
+-- consistent time-series aggregation and
+-- avoid string-based grouping.
 -- ============================================
 
 WITH monthly_summary AS (
