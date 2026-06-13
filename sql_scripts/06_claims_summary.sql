@@ -16,7 +16,7 @@ WITH claim_summary AS (
         COUNT(c.claim_id) AS total_claims,
         SUM(c.total_cost) AS total_cost,
         SUM(c.rebate_amount) AS total_rebate,
-        SUM(c.total_cost * r.rebate_rate / 100.0) AS expected_rebate
+        SUM(c.total_cost * r.rebate_rate) AS expected_rebate
     FROM claims c
     JOIN rebate r
         ON c.drug_id = r.drug_id
