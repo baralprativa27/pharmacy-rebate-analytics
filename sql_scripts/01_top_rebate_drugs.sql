@@ -29,4 +29,4 @@ FROM rebate_by_drug rbd
 JOIN drugs d
     ON rbd.drug_id = d.drug_id
 
-ORDER BY rbd.total_rebate DESC;
+ORDER BY total_rebate DESC;
