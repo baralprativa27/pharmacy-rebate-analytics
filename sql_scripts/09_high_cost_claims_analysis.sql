@@ -4,6 +4,11 @@
 -- Purpose:
 -- Identify high-cost pharmacy claims and
 -- analyze their rebate-adjusted financial impact.
+--
+-- Optimization Notes:
+-- Filter applied on fact table before reporting
+-- to reduce result set size and improve query
+-- performance on large datasets.
 -- ============================================
 
 SELECT
