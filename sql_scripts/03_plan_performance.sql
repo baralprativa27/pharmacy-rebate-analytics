@@ -37,4 +37,4 @@ FROM plan_summary ps
 JOIN plans p
     ON ps.plan_id = p.plan_id
 
-ORDER BY ps.total_rebate DESC;
+ORDER BY total_rebate DESC;
