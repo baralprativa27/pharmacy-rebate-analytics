@@ -16,7 +16,7 @@ WITH claim_summary AS (
         c.drug_id,
         SUM(c.total_cost) AS total_cost,
         SUM(c.rebate_amount) AS actual_rebate,
-        SUM(c.total_cost * r.rebate_rate / 100.0) AS expected_rebate
+        SUM(c.total_cost * r.rebate_rate) AS expected_rebate
     FROM claims c
     JOIN rebate r
         ON c.drug_id = r.drug_id
@@ -29,6 +29,11 @@ SELECT
     ROUND(cs.total_cost, 2) AS total_cost,
     ROUND(cs.actual_rebate, 2) AS actual_rebate,
     ROUND(cs.expected_rebate, 2) AS expected_rebate,
+
+    ROUND(
+        cs.actual_rebate - cs.expected_rebate,
+        2
+    ) AS rebate_variance,
 
     ROUND(
         (cs.actual_rebate - cs.expected_rebate)
