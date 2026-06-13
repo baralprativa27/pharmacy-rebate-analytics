@@ -6,9 +6,9 @@
 -- analyze therapeutic class contribution.
 --
 -- Optimization Notes:
--- Pre-aggregate claims by drug to reduce row
--- volume before joining dimension tables.
--- This improves performance at scale.
+-- Pre-aggregate claims by drug before joining
+-- dimension tables to reduce row volume and
+-- improve query maintainability.
 -- ============================================
 
 WITH rebate_by_drug AS (
@@ -21,6 +21,7 @@ WITH rebate_by_drug AS (
 
 SELECT
     d.drug_name,
+    d.therapeutic_class,
     rbd.total_rebate
 
 FROM rebate_by_drug rbd
