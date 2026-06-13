@@ -25,9 +25,9 @@ SELECT
     p.plan_name,
     p.plan_type,
     ps.total_claims,
-    ps.total_cost,
-    ps.total_rebate,
-
+    ROUND(ps.total_cost, 2) AS total_cost,
+    ROUND(ps.total_rebate, 2) AS total_rebate,
+ 
     ROUND(
         ps.total_rebate / NULLIF(ps.total_cost, 0) * 100,
         2
