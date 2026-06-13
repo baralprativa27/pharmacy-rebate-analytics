@@ -25,11 +25,15 @@ WITH claim_summary AS (
 
 SELECT
     SUM(total_claims) AS total_claims,
-    SUM(total_cost) AS total_cost,
-    SUM(total_rebate) AS total_rebate,
 
-    SUM(total_cost) - SUM(total_rebate) AS net_cost,
+    ROUND(SUM(total_cost), 2) AS total_cost,
+    ROUND(SUM(total_rebate), 2) AS total_rebate,
 
+    ROUND(
+        SUM(total_cost) - SUM(total_rebate),
+        2
+    ) AS net_cost,
+    
     ROUND(
         SUM(total_rebate) / NULLIF(SUM(total_cost), 0) * 100,
         2
