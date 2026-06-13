@@ -4,33 +4,44 @@
 -- Purpose:
 -- Compare expected and actual rebate values
 -- by drug to detect rebate variance trends.
+--
+-- Optimization Notes:
+-- Pre-aggregate claim metrics by drug before
+-- joining dimension tables to reduce join
+-- volume and improve scalability for large datasets.
 -- ============================================
+
+WITH claim_summary AS (
+    SELECT
+        drug_id,
+        SUM(total_cost) AS total_cost,
+        SUM(rebate_amount) AS actual_rebate
+    FROM claims
+    GROUP BY drug_id
+)
 
 SELECT
     d.drug_name,
-
-    SUM(c.rebate_amount) AS actual_rebate,
-
+    
+    cs.actual_rebate,
+    
     ROUND(
-        SUM(c.total_cost * (r.rebate_rate / 100)),
+        cs.total_cost * (r.rebate_rate / 100.0),
         2
     ) AS expected_rebate,
-
+    
     ROUND(
-        SUM(c.total_cost * (r.rebate_rate / 100))
-        - SUM(c.rebate_amount),
+        (cs.total_cost * (r.rebate_rate / 100.0))
+        - cs.actual_rebate,
         2
     ) AS rebate_variance
 
-FROM claims c
+FROM claim_summary cs
 
 JOIN drugs d
-    ON c.drug_id = d.drug_id
+    ON cs.drug_id = d.drug_id
 
 JOIN rebate r
-    ON c.drug_id = r.drug_id
-
-GROUP BY
-    d.drug_name
+    ON cs.drug_id = r.drug_id
 
 ORDER BY rebate_variance DESC;
