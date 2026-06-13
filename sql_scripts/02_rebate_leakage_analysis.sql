@@ -6,8 +6,9 @@
 -- to identify potential rebate leakage.
 --
 -- Optimization Notes:
--- Pre-aggregate claims at drug level before
--- joining rebate and drug dimensions.
+-- Aggregate claim metrics at drug level and
+-- calculate expected rebate before joining
+-- the drugs dimension.
 -- ============================================
 
 WITH claim_summary AS (
