@@ -2,8 +2,7 @@
 -- Project: Pharmacy Rebate Analytics Dashboard
 -- File: 07_high_cost_drugs.sql
 -- Purpose:
--- Identify high-cost drugs contributing
--- significantly to pharmacy spending
+-- Identify drugs contributing highest total pharmacy spend.
 -- ============================================
 
 SELECT
@@ -11,7 +10,8 @@ SELECT
     d.therapeutic_class,
 
     COUNT(c.claim_id) AS total_claims,
-    SUM(c.total_cost) AS total_cost,
+    ROUND(SUM(c.total_cost), 2) AS total_cost
+    
     ROUND(
         AVG(c.total_cost),
         2
