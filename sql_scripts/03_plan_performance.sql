@@ -6,8 +6,9 @@
 -- and rebate percentage across insurance plans.
 --
 -- Optimization Notes:
--- Pre-aggregate claims at plan level to reduce
--- repeated computation and simplify metric logic.
+-- Aggregate claim metrics at plan level before
+-- joining the plans dimension to simplify
+-- reporting and metric calculations.
 -- ============================================
 
 WITH plan_summary AS (
