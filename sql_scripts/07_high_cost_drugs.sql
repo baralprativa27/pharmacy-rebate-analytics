@@ -3,7 +3,7 @@
 -- File: 07_high_cost_drugs.sql
 -- Purpose:
 -- Identify high-cost drugs contributing
--- significantly to pharmacy spending.
+-- significantly to pharmacy spending
 -- ============================================
 
 SELECT
